@@ -1,0 +1,91 @@
+[
+  {
+    "nama": "Telaga Sarangan",
+    "deskripsi": "Wisata Magetan yang satu ini berada di lereng Gunung Lawu, tepatnya berada di ketinggian sekitar 1.200 mdpl. Maka tak heran jika Moms dan keluarga akan merasakan hawa sejuk hingga 15-20 derajat Celsius. Selain menikmati panorama alamnya, Moms juga dapat mengelilingi danau menggunakan speedboat atau bebek-bebekan. Ada juga tempat penyewaan kuda untuk berjalan-jalan mengitari lokasi wisata bersama Si Kecil.",
+    "lokasi": "Jl. Raya Telaga Sarangan, Sarangan, Plaosan, Telaga Pasir, Magetan",
+    "jam_buka": "07.00-18.00",
+    "tiket_masuk": "Rp10.000-20.000",
+    "gambar": "public/images/telaga_sarangan.png"
+  },
+  {
+    "nama": "Air Terjun Pundak Kiwo",
+    "deskripsi": "Selain menikmati air terjun, kamu juga bisa berendam di kolamnya. Ada pula gazebo di sekitar air terjun buatmu melepas lelah. Dijamin bikin kamu malas pulang, deh!",
+    "lokasi": "Desa Ngancar, Kecamatan Plaosan, Kabupaten Magetan, Jawa Timur",
+    "jam_operasional": "08.00-17.00",
+    "tiket_masuk": "Rp5.000",
+    "gambar": "public/images/air_terjun_pundak_kiwo.png"
+  },
+  {
+    "nama": "Taman Wisata Genilangit",
+    "deskripsi": "Hanya saya, tempat wisata Magetan ini lebih fokus sebagai selfie deck atau lokasi untuk berselfie. Uniknya, Moms bisa berfoto menggunakan kostum Jepang hingga berlatarkan suasana Jepang, lho! Selain itu, ada juga spot foto sepeda di udara, ayunan di pinggir jurang, hingga rumah pohon. Untuk hasil foto yang lebih memuaskan, pihak pengelola menyediakan jasa foto yang dibanderol sekitar Rp15.000-25.000.",
+    "lokasi": "Desa Genilangit, Poncol, Magetan",
+    "tiket_masuk": "Rp10.000",
+    "gambar": "public/images/taman_wisata_geni_langit.png"
+  },
+  {
+    "nama": "Air Terjun Tirtosari",
+    "deskripsi": "Ketinggian air terjun di Magetan ini sekitar 50 meter, dengan posisi tegak lurus di antara tebing batu. Pesonanya semakin indah dengan tumbuhan berwarna hijau di sekitarnya. Seperti wisata air terjun pada umumnya, Moms harus berjalan cukup jauh sekitar 2 kilometer untuk sampai ke lokasi ini. Tak perlu cemas, ada fasilitas jasa ojeg atau kuda yang bisa Moms sewa menuju ke air terjun. Bukan sekadar gemericik air yang menyegarkan, ikon Air Terjun Tirtosari juga berupa tangga di sisi kanan dan kiri yang dicat berwarna-warni. Jadi, jangan lupa untuk berfoto ria di tempat wisata Magetan ini, ya Moms!",
+    "lokasi": "Desa Ngancar, Ngluweng Kolon, Sarangan, Kecamatan Plaosan, Kabupaten Magetan",
+    "jam_buka": "08.00-18.00",
+    "tiket_masuk": "Rp7.000",
+    "gambar": "public/images/air_terjun_tirtosari.png"
+  },
+  {
+    "nama": "Mojosemi Forest Park",
+    "deskripsi": "Mojosemi Forset Park dibentuk sedemikian rupa seperti taman dinosaurus. Moms akan disuguhkan banyak replika reptil purba yang bisa menjadi sarana edukasi bagi Si Kecil. Menariknya lagi, ada suara dinosaurus yang siap mengagetkan para pengunjung. Jangan lewatkan jadwal dino show alias pertunjukan drama dinosaurus yang berinteraksi langsung dengan pengunjung. Setelah puas bermain dengan dinosaurus, nikmati beragam kuliner dan jajanan di kawasan Mojosemi. Untuk masuk ke dalam tempat liburan Magetan ini, Moms akan diberikan kartu khusus yang bisa diisi ulang (top up). Nah, uang elektronik inilah yang akan digunakan untuk membeli makanan, minuman, hingga souvenir di dalam kawasan.",
+    "tiket_masuk": "Rp50.000 (sudah termasuk dino show dan voucher kuliner sebesar Rp10.000)",
+    "gambar": "public/images/mojosemi_forest_park.png"
+  },
+  {
+    "nama": "Tirto Gumarang",
+    "deskripsi": "Taman wisata Tirto Gumarang bisa jadi tujuan berlibur untuk Moms yang ingin menikmati keindahan alam Gunung Lawu dan Bukit Mongkrang. Jika tak ingin lelah berjalan, Moms juga bisa menyewa jeep untuk offroad keliling kawasan Tirto Gumarang. Saking betahnya, tidak sedikit wisatawan yang memilih menginap dalam camper bus atau tenda, lho! Soal makanan tak perlu khawatir, sebab tempat wisata Magetan ini menyediakan kafe dengan sajian kopi dan aneka makanan.",
+    "lokasi": "Depan gerbang jalur pendakian Lawu via Cemoro Sewu, Dusun Cemoro Sewu, Desa Ngancar, Kecamatan Plaosan, Magetan",
+    "tiket_masuk": "Rp15.000 saat weekday, Rp20.000 saat weekend",
+    "parkir": {
+      "roda_empat": "Rp10.000",
+      "roda_dua": "Rp5.000"
+    },
+    "gambar": "public/images/tirto_gemarang.png"
+  },
+  {
+    "nama": "Kebun Bunga Refugia",
+    "deskripsi": "",
+    "lokasi": "Jl. Sarangan, Plaosan, Magetan",
+    "jam_buka": "08.00-17.00",
+    "tiket_masuk": "Rp10.000",
+    "parkir": {
+      "roda_dua": "Rp2.000",
+      "roda_empat": "Rp5.000",
+      "bus": "Rp10.000"
+    },
+    "gambar": "public/images/kebun_bunga_refugia.png"
+  },
+  {
+    "nama": "Bumi Perkemahan Alastuwo",
+    "deskripsi": "",
+    "lokasi": "Kelurahan Alastuwo, Kecamatan Poncol, Magetan",
+    "tiket_masuk": "Rp10.000",
+    "gambar": "public/images/bumi_perkemahan_alastuwo_highland_wonomulyo.png"
+  },
+  {
+    "nama": "Highland Wonomulyo",
+    "deskripsi": "",
+    "lokasi": "Bukit Sekudi, Dusun Wonomulyo, Desa Genilangit, Kecamatan Poncol, Magetan",
+    "tiket_masuk": "Rp5.000",
+    "parkir": {
+      "roda_dua": "Rp2.000"
+    },
+    "gambar": "public/images/bumi_perkemahan_alastuwo_highland_wonomulyo.png"
+  },
+  {
+    "nama": "Telaga Wahyu",
+    "deskripsi": "Setelah berkunjung ke Telaga Sarangan, wisatawan bisa mencoba datang ke Telaga Wahyu yang berlokasi di Desa Ngerong, Kecamatan Plaosan, Kabupaten Magetan, Jawa Timur. Lokasi Telaga Wahyu juga tak jauh dari Telaga Sarangan, telaganya diketahui diisi dengan banyak ikan, sehingga bisa dijadikan tempat memancing. Telaga Wahyu memiliki luas sekitar 10 hektare dengan kedalaman rata-rata sekitar 16 meter, dikutip dari situs Dinas Pariwisata dan Kebudayaan Kabupaten Magetan. Tiket masuk ke Telaga Wahyu relatif terjangkau. Untuk dewasa, harganya mulai dari Rp 5.000, sedangkan untuk anak-anak harganya mulai Rp 3.000. Buat yang tertarik berkeliling telaga agar bisa menikmati keindahan alamnya lebih dekat lagi bisa naik becak air, biayanya mulai dari Rp 40.000 sekali putaran.",
+    "lokasi": "Desa Ngerong, Kecamatan Plaosan, Kabupaten Magetan, Jawa Timur",
+    "tiket_masuk": {
+      "dewasa": "Rp5.000",
+      "anak-anak": "Rp3.000"
+    },
+    "becak_air": "Rp40.000 sekali putaran",
+    "gambar": "public/images/telaga_wahyu.png"
+  }
+]
