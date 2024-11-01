@@ -9,6 +9,7 @@ void main() {
   runApp(const MyApp());
 }
 
+// root aplikasi
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
   @override
