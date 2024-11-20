@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
 import '../data/models/model_list_wisata.dart';
+import '../widgets/wisata_card.dart';
+import 'detail_wisata_page.dart';
 
 class HomePage extends StatefulWidget {
   static const routeName = 'home_page';
@@ -16,7 +17,7 @@ class _HomePageState extends State<HomePage> {
 
   Future<List<ListWisata>> fetchWisataData() async {
     final String response = await rootBundle.loadString('public/data_wisata.json');
-    return listWisataFromJson(response); // Pastikan fungsi `wisataFromJson` sesuai dengan model Wisata
+    return listWisataFromJson(response);
   }
 
   @override
@@ -47,10 +48,16 @@ class _HomePageState extends State<HomePage> {
                 itemCount: wisataList.length,
                 itemBuilder: (context, index) {
                   final wisata = wisataList[index];
-                  return ListTile(
-                    leading: Image.asset(wisata.gambar),
-                    title: Text(wisata.nama),
-                    subtitle: Text(wisata.deskripsi),
+                  return WisataCard(
+                    wisata: wisata,
+                    onTap: () {
+                      // Navigasi ke halaman detail dengan pushNamed dan mengirim data melalui arguments
+                      Navigator.pushNamed(
+                        context,
+                        DetailPage.routeName,
+                        arguments: wisata,
+                      );
+                    },
                   );
                 },
               );
